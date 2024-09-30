@@ -10,7 +10,7 @@ struct SNode {
     SNode(const Item_Type& data_item, SNode* next_ptr = NULL) : data(data_item), next(next_ptr) {}
 };
 
-
+//display a menu and return user option
 int menu() {
     int choice;
     cout << "MENU\n1. Linked List\n2. Vector\n-1. Exit\nChoice: ";
